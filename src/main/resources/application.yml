@@ -8,6 +8,7 @@ spring:
     properties:
       hibernate:
         jdbc.lob.non_contextual_creation: true
+    open-in-view: false
 
 server:
   port: 8081
