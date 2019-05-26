@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS phone_book (
+    phone_id SERIAL NOT NULL PRIMARY KEY,
+    phone VARCHAR(12) NOT NULL, 
+    name VARCHAR(1024) NOT NULL
+);
